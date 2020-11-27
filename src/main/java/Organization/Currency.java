@@ -5,6 +5,8 @@ public enum Currency {
     USD(840),
     RUB(643);
 
-    Currency(int i) {
+    public int code;
+
+    Currency(int code) {
     }
 }

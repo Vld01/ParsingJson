@@ -22,6 +22,7 @@
 		"securities": [
 			{
 				"id": 785,
+				"code": 55448395,
 				"name": "Очень ценная бумага",
 				"currency": [
 					"EU",
@@ -31,6 +32,7 @@
 			},
 			{
 				"id": 559,
+				"code": 1149999,
 				"name": "Триллион миллионов",
 				"currency": [
 					"EU"
@@ -39,11 +41,12 @@
 			},
 			{
 				"id": 79,
+				"code": 5555555,
 				"name": "Просто бумага",
 				"currency": [
 					"EU",
 					"USD",
-					"RUS"
+					"RUB"
 				],
 				"dateTime": "1998-01-02"
 			}
@@ -73,9 +76,10 @@
 		"securities": [
 			{
 				"id": 125,
+				"code": 1144552,
 				"name": "Дороже золота",
 				"currency": [
-					"RUS",
+					"RUB",
 					"USD"
 				],
 				"dateTime": "2019-10-01"
@@ -106,18 +110,20 @@
 		"securities": [
 			{
 				"id": 15,
+				"code": 1155443,
 				"name": "Не дороже денег",
 				"currency": [
-					"RUS",
+					"RUB",
 					"EU"
 				],
 				"dateTime": "2019-06-15"
 			},
 			{
 				"id": 48,
+				"code": 7781253,
 				"name": "Денег много не бывает",
 				"currency": [
-					"RUS",
+					"RUB",
 					"USD"
 				],
 				"dateTime": "2032-08-15"

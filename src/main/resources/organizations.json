@@ -21,21 +21,41 @@
 		],
 		"securities": [
 			{
-				"id": 125,
+				"id": 785,
+				"code": 55448395,
 				"name": "Очень ценная бумага",
 				"currency": [
 					"EU",
 					"USD"
 				],
-				"dateTime": "2020-11-11"
+				"dateTime": "2021-11-11"
+			},
+			{
+				"id": 559,
+				"code": 1149999,
+				"name": "Триллион миллионов",
+				"currency": [
+					"EU"
+				],
+				"dateTime": "2022-05-05"
+			},
+			{
+				"id": 79,
+				"code": 5555555,
+				"name": "Просто бумага",
+				"currency": [
+					"EU",
+					"USD",
+					"RUB"
+				],
+				"dateTime": "1998-01-02"
 			}
 		],
 		"dateFoundation": "2020-11-11"
 	},
-
 	{
-		"name": "ООО И тебя вылечим",
-		"inn": 8888567891,
+		"name": "ОАО И тебя вылечим",
+		"inn": 1188567891,
 		"ogrn": 9999967891011,
 		"address": {
 			"streetAddress": "ул. Лобочевского",
@@ -56,15 +76,60 @@
 		"securities": [
 			{
 				"id": 125,
+				"code": 1144552,
 				"name": "Дороже золота",
 				"currency": [
-					"RUS",
+					"RUB",
 					"USD"
 				],
-				"dateTime": "2020-11-11"
+				"dateTime": "2019-10-01"
 			}
 		],
-		"dateFoundation": "2020-11-11"
+		"dateFoundation": "2018-01-10"
+	},
+	{
+		"name": "ЗАО Делаем деньги",
+		"inn": 1000567891,
+		"ogrn": 9000000000011,
+		"address": {
+			"streetAddress": "ул. Красного ручья",
+			"city": "Омск",
+			"state": "OMSK",
+			"postalCode": 705555
+		},
+		"phoneNumbers": [
+			{
+				"type": "home",
+				"number": "8 (3812) 22-11-11"
+			},
+			{
+				"type": "fax",
+				"number": "8 (3812) 221-11-12"
+			}
+		],
+		"securities": [
+			{
+				"id": 15,
+				"code": 1155443,
+				"name": "Не дороже денег",
+				"currency": [
+					"RUB",
+					"EU"
+				],
+				"dateTime": "2019-06-15"
+			},
+			{
+				"id": 48,
+				"code": 7781253,
+				"name": "Денег много не бывает",
+				"currency": [
+					"RUB",
+					"USD"
+				],
+				"dateTime": "2032-08-15"
+			}
+		],
+		"dateFoundation": "2015-05-22"
 	}
 ]
 	
