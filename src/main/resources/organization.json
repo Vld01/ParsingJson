@@ -1,0 +1,33 @@
+{
+	  "name": "ООО Рога и копыта",
+	  "inn": 1234567891,
+	  "ogrn": 1234567891011,
+	  "address": {
+		"streetAddress": "666 1nd Street",
+		"city": "New York",
+		"state": "NY",
+		"postalCode": 10021
+	  },
+	  "phoneNumbers": [
+		{
+		  "type": "home",
+		  "number": "542 666-1234"
+		},
+		{
+		  "type": "fax",
+		  "number": "653 666-4567"
+		}
+	  ],
+	  "securities": [
+		{
+		  "id": 125,
+		  "name": "Очень ценная бумага",
+		  "currency": [
+			"EU",
+			"USD"
+		  ],
+		  "dateTime": "2020-11-11"
+		}
+		],
+		"dateFoundation": "2020-11-11"
+}
