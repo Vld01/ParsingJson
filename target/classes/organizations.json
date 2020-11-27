@@ -1,0 +1,129 @@
+[
+	{
+		"name": "ООО Рога и копыта",
+		"inn": 1234567891,
+		"ogrn": 1234567891011,
+		"address": {
+			"streetAddress": "666 1nd Street",
+			"city": "New York",
+			"state": "NY",
+			"postalCode": 10021
+		},
+		"phoneNumbers": [
+			{
+				"type": "home",
+				"number": "542 666-1234"
+			},
+			{
+				"type": "fax",
+				"number": "653 666-4567"
+			}
+		],
+		"securities": [
+			{
+				"id": 785,
+				"name": "Очень ценная бумага",
+				"currency": [
+					"EU",
+					"USD"
+				],
+				"dateTime": "2021-11-11"
+			},
+			{
+				"id": 559,
+				"name": "Триллион миллионов",
+				"currency": [
+					"EU"
+				],
+				"dateTime": "2022-05-05"
+			},
+			{
+				"id": 79,
+				"name": "Просто бумага",
+				"currency": [
+					"EU",
+					"USD",
+					"RUS"
+				],
+				"dateTime": "1998-01-02"
+			}
+		],
+		"dateFoundation": "2020-11-11"
+	},
+	{
+		"name": "ОАО И тебя вылечим",
+		"inn": 1188567891,
+		"ogrn": 9999967891011,
+		"address": {
+			"streetAddress": "ул. Лобочевского",
+			"city": "Москва",
+			"state": "MSK",
+			"postalCode": 106666
+		},
+		"phoneNumbers": [
+			{
+				"type": "home",
+				"number": "8 (495) 111-11-11"
+			},
+			{
+				"type": "fax",
+				"number": "8 (495) 111-11-12"
+			}
+		],
+		"securities": [
+			{
+				"id": 125,
+				"name": "Дороже золота",
+				"currency": [
+					"RUS",
+					"USD"
+				],
+				"dateTime": "2019-10-01"
+			}
+		],
+		"dateFoundation": "2018-01-10"
+	},
+	{
+		"name": "ЗАО Делаем деньги",
+		"inn": 1000567891,
+		"ogrn": 9000000000011,
+		"address": {
+			"streetAddress": "ул. Красного ручья",
+			"city": "Омск",
+			"state": "OMSK",
+			"postalCode": 705555
+		},
+		"phoneNumbers": [
+			{
+				"type": "home",
+				"number": "8 (3812) 22-11-11"
+			},
+			{
+				"type": "fax",
+				"number": "8 (3812) 221-11-12"
+			}
+		],
+		"securities": [
+			{
+				"id": 15,
+				"name": "Не дороже денег",
+				"currency": [
+					"RUS",
+					"EU"
+				],
+				"dateTime": "2019-06-15"
+			},
+			{
+				"id": 48,
+				"name": "Денег много не бывает",
+				"currency": [
+					"RUS",
+					"USD"
+				],
+				"dateTime": "2032-08-15"
+			}
+		],
+		"dateFoundation": "2015-05-22"
+	}
+]
+	
