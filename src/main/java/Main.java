@@ -5,6 +5,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
@@ -20,7 +22,7 @@ public class Main {
                 .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
                 .create();
 
-        List<Organization> organizations  = new ArrayList<Organization>(Arrays.asList(g.fromJson(new FileReader("D:\\Загрузки хром\\Учеба Appline\\10. Java 8 от 25.11.2020\\ParsingJson\\src\\main\\resources\\organizations.json"), Organization[].class)));
+        List<Organization> organizations  = new ArrayList<Organization>(Arrays.asList(g.fromJson(new FileReader("src\\main\\resources\\organizations.json"), Organization[].class)));
 
         taskOne(organizations);
         taskTwo(organizations);
@@ -121,52 +123,33 @@ public class Main {
             e.printStackTrace();
         }
 
+        Currency currency = null;
         switch (code) {
             case "EU":
-                for (Securities sec:
-                     securities) {
-                    for (Currency cur:
-                         sec.getCurrency()) {
-                        if(cur != null && cur.equals(Currency.EU)) {
-                            System.out.println("id ценной бумаги = " +
-                                    sec.getId() +
-                                    ", код ценной бумаги = " +
-                                    sec.getCode());
-                        }
-                    }
-                }
+                currency = Currency.EU;
                 break;
             case "USD":
-                for (Securities sec:
-                        securities) {
-                    for (Currency cur:
-                            sec.getCurrency()) {
-                        if(cur != null && cur.equals(Currency.USD)) {
-                            System.out.println("id ценной бумаги = " +
-                                    sec.getId() +
-                                    ", код ценной бумаги = " +
-                                    sec.getCode());
-                        }
-                    }
-                }
+                currency = Currency.USD;
                 break;
             case "RUB":
-                for (Securities sec:
-                        securities) {
-                    for (Currency cur:
-                            sec.getCurrency()) {
-                        if(cur != null && cur.equals(Currency.RUB)) {
-                            System.out.println("id ценной бумаги = " +
-                                    sec.getId() +
-                                    ", код ценной бумаги = " +
-                                    sec.getCode());
-                        }
-                    }
-                }
+                currency = Currency.RUB;
                 break;
             default:
                 System.out.println("Введенной валюты не найдено.");
                 break;
+        }
+
+        for (Securities sec:
+                securities) {
+            for (Currency cur:
+                    sec.getCurrency()) {
+                if(cur != null && cur.equals(currency)) {
+                    System.out.println("id ценной бумаги = " +
+                            sec.getId() +
+                            ", код ценной бумаги = " +
+                            sec.getCode());
+                }
+            }
         }
     }
 }
